@@ -98,7 +98,7 @@ const createJSONObject = formattedReportsArray => {
           ? JSONObjectArray.push({
               package: report[0],
               company: report[1],
-              emails: findValidEmails(report[2]),
+              emails: sortAndFindDuplicateEmails(findValidEmails(report[2])),
               count: 1
             })
           : errorsObject.errors.push({ error: errors, report: report });
@@ -179,14 +179,6 @@ const sortJSONObjectArray = JSONObjectArray => {
 
 module.exports = {
   sortJSONObjectArray,
-  modifyReport,
-  doesReportExist,
-  sortAndFindDuplicateEmails,
-  findValidEmails,
-  doEmailsExist,
-  isReportValid,
-  handleErrors,
   createJSONObject,
-  orderReportArray,
   formatReports
 };
