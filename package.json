@@ -1,0 +1,25 @@
+{
+  "name": "cleo-challenge-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanniedong/cleo-challenge-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanniedong/cleo-challenge-master/issues"
+  },
+  "homepage": "https://github.com/hanniedong/cleo-challenge-master#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jest": "^23.6.0",
+    "mocha": "^5.2.0"
+  }
+}
