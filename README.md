@@ -78,3 +78,48 @@ Errors are included in the `output.json`
   1) The report is in an invalid format 
   2) The report does not contain any valid emails 
   3) The report is empty
+
+Example: 
+
+```
+yo
+Cleo Select:Slack:meow
+1st-Time Parents:LUCY:scott@startwithlucy.com,kurt@startwithlucy.com
+
+```
+
+```
+[  
+   {  
+      "package":"1st-Time Parents",
+      "company":"LUCY",
+      "emails":[  
+         "kurt@startwithlucy.com",
+         "scott@startwithlucy.com"
+      ],
+      "count":1
+   },
+   {  
+      "errors":[  
+         {  
+            "error":[  
+               "Report is not in the proper format"
+            ],
+            "report":[  
+               "yo"
+            ]
+         },
+         {  
+            "error":[  
+               "There are no valid emails"
+            ],
+            "report":[  
+               "Cleo Select",
+               "Slack",
+               "meow"
+            ]
+         }
+      ]
+   }
+]
+```
