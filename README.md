@@ -1,5 +1,4 @@
-# cleo-challenge-master
-# Code Challenge
+# Cleo Code Challenge
 
 ### Background
 When companies subscribe to a Cleo benefit package, any of their employees who are expecting, adopting, or who have recently had a child gain access to our platform. In some cases, families who are considering having a child are also eligible. 
