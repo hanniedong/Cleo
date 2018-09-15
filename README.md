@@ -12,8 +12,7 @@ Periodic reports with the email addresses of newly eligible employees are given.
 Program is written in Javascript ES6.
 1) Make sure node version is correct. I used `node version: v10.10.0` when creating this program. Also compabible with `node version: v8`
   -Check for node version by typing `node -v` 
-2) Run `npm install` to install dependencies 
-3) Within commandline run `node solution.js < *.txt`
+2) Within commandline run `node solution.js < *.txt`
 
 ### How to Run Tests
 Utilized Jest testing framework to create tests. 
