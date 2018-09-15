@@ -18,8 +18,6 @@
   },
   "homepage": "https://github.com/hanniedong/cleo-challenge-master#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "jest": "^23.6.0",
-    "mocha": "^5.2.0"
+    "jest": "^23.6.0"
   }
 }
